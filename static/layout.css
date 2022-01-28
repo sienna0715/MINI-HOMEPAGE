@@ -1,0 +1,247 @@
+.containerM{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+  }
+  .title{
+    display: flex;
+    padding: 9px 0;
+  }
+  .title .homename{
+    flex: 0.7;
+  }
+  .title .homeurl{
+    flex: 1;
+    padding-left: 50px;
+    text-align: right;
+  }
+  .boxM{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    width: 540px;
+    height: 510px;
+    overflow: auto;
+  }
+  .boxMalign{
+    width: 500px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  .newstitle{
+    font-size: 15px;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 1px solid #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .update{
+    flex: 0.2;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 10px;
+  }
+  .newscont{}
+  
+  .update li{
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+  .update li a{
+    color: inherit;
+    text-decoration: none;
+  }
+  .update li span{
+    background: lightsteelblue;
+    color: #fff;
+    border-radius: 4px;
+    padding: 3px;
+  }
+  .update li:nth-child(1) span{
+    background: salmon;
+  }
+  .preview{
+    flex: 1;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+  }
+  .pretext1, .pretext2{
+    display: flex;
+    border-bottom: 1px dashed #333;
+    margin-left: 20px;
+  }
+  .preview span{
+    color: cadetblue;
+  }
+  
+  .prediary, .prephoto, .board, .guest{flex: 1;}
+  
+  .miniroom{
+    flex: 0.8;
+  }
+  .minititle{
+    font-size: 15px;
+    font-weight: bold;
+    color: teal;
+    border-bottom: 1px solid #333;
+  }
+  .miniroom img{
+    width: 500px;
+    height: 320px;
+  }
+
+  /* 사진첩 */
+  .photobook{
+    margin-left: 1rem;
+    
+  }
+  .phototitle{
+    background: #eee;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  .photo{}
+  .photo img{
+    width: 450px;
+    margin-left: 20px;
+  }
+  .photo p{
+    margin-left: 20px;
+    margin-bottom: 3rem;
+  }
+
+  /* 다이어리 */
+  .date{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 480px;
+    margin-bottom: 1.5rem;
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 8px;
+  }
+  .day{
+    flex: 0.2;
+    text-align: center;
+    color: teal;
+    padding-top: 5px;
+  }
+  .jan{
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .jan span{
+    color: red;
+  }
+
+
+  .boxalign{
+    overflow: scroll;
+    height: 405px;
+    margin-left: 2rem;
+  }
+
+  .diary{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 435px;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+  }
+  .diary .to{
+    color: teal;
+  }
+  .diary p{
+    text-align: center;
+  }
+
+  .button-box{
+    margin: 1rem 0;
+    text-align: center;
+  }
+  .button-box button{
+  padding: 1rem;
+  background: #fff;
+  color: #fff;
+  border: none;
+ }
+ .button-box button:hover{ 
+    background: rgb(50, 187, 119);
+    transition: 5s;
+  }
+
+  #secret-box{
+    display: none;
+  }
+
+  .diary-box{
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    width: 435px;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+  }
+  .diary-date{
+    color: teal;
+  }
+  .diary-text{
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  /* 방명록 */
+  .reviewbox{
+    overflow: auto;
+  }
+  .review{
+    margin-left: 1rem;
+  }
+  .with{
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 2rem;
+   position: relative;
+  }
+  .spongebox{
+    flex: 0.7;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .background1{
+    background-image: url("./images/spongebg1.jpg");
+  }
+  .background2{
+    background-image: url("./images/spongebg2.png");
+  }
+  .background3{
+    background-image: url("./images/spongebg3.jpg");
+  }
+
+  .spongebox img{
+    height: 13rem;
+  }
+  .spongetext{
+    flex: 1;
+    margin-left: 15px;
+    display: table;
+  }
+  .spongetext p{
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .phototitle span{
+    color: blue;
+  }
